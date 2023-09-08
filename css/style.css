@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+body {
+    font-family: var(--poppins);
+    color: whitesmoke;
+    background-color: #5a5a5a;
+}
+
+.aktif {
+    color: orange !important;
+}
+
+a.navbar-brand {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+nav.navbar {
+    background-color: #2b2b2b;
+}
+
+.nav-item>a {
+    color: whitesmoke;
+    font-weight: 400;
+    margin-left: 3em;
+}
+
+.nav-item>a:hover {
+    color: white;
+}
+
+.kotak-judul {
+    padding-top: 100px;
+    background-color: rgb(219, 143, 0);
+    width: 100%;
+    height: 13em;
+}
+
+.kotak-judul>h3,
+.kotak-judul>h5 {
+    text-align: center;
+}
+
+.kotak-identitas {
+    padding: 30px 80px;
+    margin: 50px 75px;
+    background-color: wheat;
+}
+
+.kotak-identitas h3,
+.kotak-identitas p {
+    text-align: center;
+    color: black;
+}
+
+#section3 {
+    padding-top: 100px;
+}
+
+#section4 {
+    padding-top: 150px;
+}
+
+#section5 {
+    padding-bottom: 75px;
+}
+
+.gbku {
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 3px rgba(202, 202, 202, 0.5);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gb-gal {
+    width: 300px;
+    margin: 30px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.gb-gal:hover {
+    position: relative;
+    z-index: 999;
+    transition: .5s;
+    transform: scale(1.2);
+}
