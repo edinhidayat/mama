@@ -111,3 +111,18 @@ nav.navbar {
     transition: .5s;
     transform: scale(1.2);
 }
+
+
+@media (max-width: 575.98px) {
+    .kotak-identitas {
+        padding: 10px 10px;
+    }
+
+    .kotak-identitas h3 {
+        font-size: 20px;
+    }
+
+    .kotak-identitas p {
+        font-size: 12px;
+    }
+}
